@@ -1,36 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Form Page</title>
-  </head>
-  <body>
-    <h1>Form</h1>
 
-    <form action="nothing">
-      <div>
-        Name: <input type="text" placeholder="Enter your name" name="myname" />
-      </div>
-      <div>
-        Password: <input type="text" name="mypass" placeholder="*******" />
-      </div>
-      <div>
-        are you new here :
-        <select name="options">
-          <option value="yes" selected>yes</option>
-          <option value="no">No</option>
-        </select>
-      </div>
-      <div>
-        Gender : <input type="radio" name="gender" value="male" id="male" />Male
-        <input type="radio" name="gender" id="" />Female
-      </div>
-      <div>
-        Write anything : <textarea name="text" cols="30" rows="10"></textarea>
-      </div>
-      Submit : <input type="submit" value="Submit now" />
-    </form>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Form Page</title>
+</head>
+
+<body>
+  <h1>Form (only has Html)</h1>
+
+  <form action="nothing">
+    <div>
+      Name: <input type="text" placeholder="Enter your name" name="myname" />
+    </div>
+    <div>
+      Password: <input type="text" name="mypass" placeholder="*******" />
+    </div>
+    <div>
+      Are you new here :
+      <select name="options">
+        <option value="yes" selected>yes</option>
+        <option value="no">No</option>
+      </select>
+    </div>
+    <div>
+      Gender : <input type="radio" name="gender" value="male" id="male" />
+      Male
+      <input type="radio" name="gender" id="" />
+      Female
+    </div>
+    <div>
+      Write anything : <textarea name="text" cols="30" rows="10"></textarea>
+    </div>
+    Submit : <input type="submit" value="Submit now" />
+  </form>
+</body>
+
 </html>
